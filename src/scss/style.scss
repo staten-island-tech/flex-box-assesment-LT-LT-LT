@@ -1,0 +1,55 @@
+@import "_variables.scss";
+@import "_html.scss";
+
+body {
+  font-size: 4rem;
+  color: color(black);
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.toolbar {
+  background-color: color(yellow);
+  display: flex;
+}
+.images-toolbar {
+  flex-grow: 1;
+}
+
+.Welcome {
+  border: solid;
+  margin: 1rem;
+  position: relative;
+}
+.images {
+  width: 100%;
+}
+.Message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -125%);
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  height: 90vh;
+}
+.About {
+  flex-grow: 1;
+  border: solid;
+  margin: 1rem;
+  outline: white; //border
+  //picture here?
+}
