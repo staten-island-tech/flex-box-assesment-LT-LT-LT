@@ -10,6 +10,7 @@ body {
   margin: 0;
 }
 .header {
+  justify-content: space-around;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -52,4 +53,15 @@ body {
   margin: 1rem;
   outline: white; //border
   //picture here?
+}
+.Pictures {
+  display: flex;
+  font-size: 2rem;
+  border: solid;
+}
+.Row_One {
+  border: solid;
+}
+.O_1 {
+  background-image: url(/dist/img1.jpg);
 }

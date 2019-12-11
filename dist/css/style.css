@@ -21,6 +21,8 @@ body {
 }
 
 .header {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,5 +87,21 @@ body {
   border: solid;
   margin: 1rem;
   outline: white;
+}
+
+.Pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+  border: solid;
+}
+
+.Row_One {
+  border: solid;
+}
+
+.O_1 {
+  background-image: url(/dist/img1.jpg);
 }
 /*# sourceMappingURL=style.css.map */
