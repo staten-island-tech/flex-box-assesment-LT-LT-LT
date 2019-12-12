@@ -106,6 +106,9 @@ body {
   position: absolute;
 } */
 .Images {
+  font-size: 1.75rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,15 +136,35 @@ body {
           flex-grow: 1;
 }
 
-.Image1 {
+#Image1 {
   width: 150%;
 }
 
-.Image2 {
+#Image2 {
   width: 50%;
 }
 
-.Image3 {
+#Image3 {
   height: 100%;
+}
+
+.Image {
+  border: solid;
+  position: relative;
+}
+
+.Stat {
+  position: absolute;
+  z-index: 1;
+}
+
+.Rate {
+  -webkit-transform: translate(210%, 0%);
+          transform: translate(210%, 0%);
+}
+
+.Scholar {
+  -webkit-transform: translate(5%, 0%);
+          transform: translate(5%, 0%);
 }
 /*# sourceMappingURL=style.css.map */
