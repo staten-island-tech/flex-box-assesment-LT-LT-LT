@@ -82,32 +82,15 @@ body {
   outline: white;
 }
 
-/* .Pictures {
+.After {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  font-size: 2rem;
-  border: solid;
 }
-.Row_One {
-  border: solid;
-}
-.O_1 {
-  background-image: url(/dist/img1.jpg);
-}
-.Image {
-  position: relative;
-}
-.O_1 {
-  position: absolute;
-}
-.O_2 {
-  position: absolute;
-}
-.I_1 {
-  position: absolute;
-} */
+
 .Images {
   font-size: 1.75rem;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -145,7 +128,9 @@ body {
 }
 
 #Image3 {
-  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .Image {
@@ -166,5 +151,9 @@ body {
 .Scholar {
   -webkit-transform: translate(5%, 0%);
           transform: translate(5%, 0%);
+}
+
+.Email {
+  outline: solid;
 }
 /*# sourceMappingURL=style.css.map */
